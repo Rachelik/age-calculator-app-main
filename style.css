@@ -9,7 +9,7 @@ main {
 label {
     display: block;
     font-family: 'Poppins', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     text-transform: uppercase;
     font-weight: 400;
     padding: 12px 0;
@@ -32,7 +32,7 @@ label {
     border: solid 1px hsl(0, 0%, 86%);
     padding: 10.5px 23px 11.5px;
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     border-radius: 6px;
     width: 135px;
@@ -55,7 +55,7 @@ label {
 }
 
 h1 {
-    font-size: 104px;
+    font-size: 6.5rem;
     font-weight: 800;
     font-style: italic;
     margin-bottom: 10.5px;
@@ -116,7 +116,7 @@ hr {
 
     .date-input {
         width: 54px;
-        font-size: 20px;
+        font-size: 1.25rem;
         padding: 10.5px 16px 11.5px;
         margin: 0px;
     }
@@ -132,12 +132,12 @@ hr {
     }
 
     h1 {
-        font-size: 56px;
+        font-size: 3.5rem;
         margin-bottom: 6.5px;
     }
 
     label {
-        font-size: 12px;
+        font-size: 0.75rem;
         margin-bottom: 0px;
         padding-bottom: 7px;
     }

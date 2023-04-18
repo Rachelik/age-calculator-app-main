@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <link rel="stylesheet" href="fixstyles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <main>
+    <div class="date-form">
+      <div class="date-div day-div">
+        <Label for="day-input">Day</Label>
+        <input class="date-input" id="day-input" placeholder="DD" maxlength="2">
+      </div>
+
+      <div class="date-div month-div">
+        <Label for="month-input">Month</Label>
+        <input class="date-input" id="month-input" placeholder="MM" maxlength="2">
+      </div>
+
+      <div class="date-div year-div">
+        <Label for="year-input">Year</Label>
+        <input class="date-input" id="year-input" placeholder="YYYY" maxlength="4">
+      </div>
+    </div>
+
+    <div class="divider-hr">
+      <hr>
+      <button class="btn-submit" onclick="calculateAge()">
+        <img class="btn-submit-icon" src="assets/images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+
+    <div class="age-results-div">
+      <h1><span id="age-years" class="header-span">- -</span>years</h1>
+      <h1><span id="age-months" class="header-span">- -</span>months</h1>
+      <h1><span id="age-days" class="header-span">- -</span>days</h1>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Rachel</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

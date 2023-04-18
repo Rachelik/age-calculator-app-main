@@ -1,0 +1,163 @@
+main {
+    margin: 162px auto;
+    background-color: white;
+    padding: 47px 56px;
+    border-radius: 14px 14px 30% 14px;
+    width: 728px;
+}
+
+label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 12px 0;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 3px;
+}
+
+.date-form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+}
+
+.date-div {
+    text-align: left;
+    margin-right: 32px;
+}
+
+.date-input {
+    border: solid 1px hsl(0, 0%, 86%);
+    padding: 10.5px 23px 11.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 6px;
+    width: 135px;
+}
+
+.date-input:focus {
+    outline: none !important;
+    border: solid 1px hsl(259, 100%, 65%);
+}
+
+.age-results-div {
+    text-align: left;
+    padding: 0px 0px;
+}
+
+.header-span {
+    color: hsl(259, 100%, 65%);
+    letter-spacing: 0px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 104px;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 10.5px;
+    color: hsl(0, 0%, 8%);
+
+}
+
+.btn-submit {
+    border: none;
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 50%;
+    padding: 24px;
+    position: absolute;
+    right: 0px;
+}
+
+.btn-submit:hover {
+    background-color: black;
+}
+
+hr {
+    display: block;
+    border-width: 0px 0px 1px 0px;
+    width: 98%;
+    position: absolute;
+    height: 0;
+    left: 0px;
+    top: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+.divider-hr {
+    height: 96px;
+    position: relative;
+    margin: 0px 0px 6px;
+    top: 0px;
+    padding: 0px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .btn-submit {
+        width: 64px;
+        height: 64px;
+        padding: 0px;
+        margin: 0px;
+        top: 18px;
+        right: 40%;
+    }
+
+    main {
+        width: 295px;
+        padding: 40px 24px 45px;
+        border-radius: 20px 20px 90px 20px;
+    }
+
+    .date-input {
+        width: 54px;
+        font-size: 20px;
+        padding: 10.5px 16px 11.5px;
+        margin: 0px;
+    }
+
+    .date-div {
+        margin-right: 16px;
+        margin-top: 0px;
+    }
+
+    .date-div:last-child {
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+
+    h1 {
+        font-size: 56px;
+        margin-bottom: 6.5px;
+    }
+
+    label {
+        font-size: 12px;
+        margin-bottom: 0px;
+        padding-bottom: 7px;
+    }
+
+    .btn-submit-icon {
+        width: 26px;
+        height: 26px;
+    }
+
+    .age-results-div {
+        margin-right: 0px;
+        padding-right: 0px;
+    }
+
+    hr {
+        width: 100%;
+        border-width: 0px 0px 2px 0px;
+    }
+
+    .divider-hr {
+        margin: 15px 0px 22px;
+    }
+}
